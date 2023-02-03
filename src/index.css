@@ -219,10 +219,10 @@ section.profile-stepup .container {
 }
 section.profile-stepup .container .social {
   display: flex;
- 
+
  
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 2rem;
   gap: 1.9rem;
 }
 section.profile-stepup .social i {
@@ -234,8 +234,8 @@ section.profile-stepup .social i {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 2.4rem;
+  height: 2.4rem;
   transition: var(--transition);
 }
 section.profile-stepup .social i:hover {
