@@ -82,7 +82,7 @@ section h1 {
 
 .btn {
   
-  background:linear-gradient(90deg, rgba(108, 177, 230, 1) 0%, rgba(108, 137, 230, 1) 43%, rgba(3, 83, 160, 1) 100%);
+  /* background:linear-gradient(90deg, rgba(108, 177, 230, 1) 0%, rgba(108, 137, 230, 1) 43%, rgba(3, 83, 160, 1) 100%); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,11 +364,15 @@ section.skills .container .skill .head {
   color: var(--color-white);
   padding: 1.3rem;
 }
+.technology{
+  margin-top: -3rem;
+}
 section.skills .container .skill .head .left h4 {
   color: white;
+  font-size: 0.9rem;
 }
 section.skills .container .skill .items .item h4 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
 }
 section.skills .container .skill .head .left {

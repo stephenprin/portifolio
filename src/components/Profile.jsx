@@ -25,7 +25,7 @@ const Profile = () => {
                     project have leverage my abilities to successfully achieve organizational
                     goal. Strong focus on comprehensive product knowledge in order to meet client requirement
                     and maximize sales.</p>
-                     <a href="#contact" className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:btn btn-primary bg-gradient-to-r from-cyan-800 to-blue-400 rounded-">Let's Talk</a>
+                     <a href="#contact" className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-900 rounded-full">Let's Talk</a>
             </div>
             <div className="profile-zone">
                 <div className="outer-zone">
