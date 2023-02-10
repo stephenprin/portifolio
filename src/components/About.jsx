@@ -11,13 +11,13 @@ const About = () => {
             <img src={profile} alt="profile" className="rounded-lg"/>
         </div>
         <div className="info m-auto text-center pl-5  pt-0">
-            <p className="pr-12 text-[1rem] text-slate-400">My name is Prince Nmezi, I am a React/Node engineer 👨🏽‍💻 with deep passion for the tech space, 
+            <p className="pr-12 text-[1.2rem] text-slate-400">My name is Prince Nmezi, I am a React/Node engineer 👨🏽‍💻 with deep passion for the tech space, 
                 building to scale web applications using modern technologies. Through practicing and personal projects 
                 have leverage my abilities to successfully achieve organizational goal, using modern technology such as GraphQL, ReactJS and NodeJS. 
                 Also handle database management systems with SQL like Postgres or No SQL such as MongoDB and Docker for containerization.
                  I have experience in UX design, unit, and integration testing 
             </p>
-            <p className="pr-12 text-[1rem] text-slate-400">
+            <p className="pr-12 text-[1.2rem] text-slate-400">
                 My background has prepared me to excel in any capacity, with plenty of hands-on classroom and practical experience in software development 
                 for a variety of usages. My technical abilities, coupled with my adaptability and interpersonal skills, position me ready to thrive in this field.
                 Additionally, I possess the agile mindset, which is the ability to work in a team environment. Currently, 
