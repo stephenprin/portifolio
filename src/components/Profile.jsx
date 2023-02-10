@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile.jpg'
+import prince from '../assets/prince.jpg'
 import {socialLinks} from '../data'
 
 const Profile = () => {
@@ -35,7 +35,7 @@ const Profile = () => {
                     <i className="fab fa-react"></i>
                 </div>
                 <div className="inner-zone">
-                    <img src={profile} alt="prince"/>
+                    <img src={prince} alt="prince"/>
                 </div>
             </div>
         </div>
