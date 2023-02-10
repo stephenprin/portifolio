@@ -20,11 +20,10 @@ const Profile = () => {
             <div className="profile-intro">
                 <h1>Software developer...</h1>
                 <h3>hi, I'm Prince Nmezi,</h3>
-                <p> with deep passion for software development,
-                    algorithms and problem-solving. Through years of practicing and personal
-                    project have leverage my abilities to successfully achieve organizational
-                    goal. Strong focus on comprehensive product knowledge in order to meet client requirement
-                    and maximize sales.</p>
+                  <p> As a highly motivated and skilled software developer with experience
+                      in developing and implementing software solutions,
+                      I am eager to bring my technical expertise and passion for technology to a new opportunity. I am committed to staying up-to-date with
+                      the latest technologies and methodologies to ensure that I am providing the best possible solutions for clients and end-users..</p>
                      <a href="#contact" className="btn btn-primary bg-gradient-to-r from-cyan-500 to-blue-900 rounded-full">Let's Talk</a>
             </div>
             <div className="profile-zone">
