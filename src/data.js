@@ -60,8 +60,8 @@ export const projectData = [
         image: "src/assets/github.png",  
         title: "Github User Search",
         description: "An application that allows users to search for a specific GitHub user by username and retrieve information about their profile and activity on the platform. This information can include the user's bio, location, email, number of followers, repositories, and recent activity such as pull requests and comments. The purpose of a GitHub user searcher is to help developers,recruiters, and others to quickly find and gather information about a specific GitHub user.",
-        href1: "https://github.com/stephenprin/Responsive-admin-dashboard",
-        href2: "https://admindashboardp.netlify.app/",
+        href1: "https://github.com/stephenprin/react-github-search-users",
+        href2: "https://githuser.onrender.com/",
         technology: "React, Tailwind CSS, React Router, React Hooks, Context API, GitHub API, FusionCharts, CSS"
     },
     {

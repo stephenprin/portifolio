@@ -35,7 +35,7 @@ const Profile = () => {
                     <i className="fab fa-react"></i>
                 </div>
                 <div className="inner-zone">
-                    <img src={profile} alt="profile"/>
+                    <img src={profile} alt="prince"/>
                 </div>
             </div>
         </div>
