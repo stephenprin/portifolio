@@ -48,7 +48,7 @@ export const socialLinks = [
 export const projectData = [
     {
         id: 1,
-        image: "https://drive.google.com/file/d/1GaHK45RCFnVCfMxIutm4QTCOAOHjoDGQ/view?usp=share_link",  
+        image: "/src/assets/smooze.jpg",  
         title: "Smooze Music App",
         description: "Smooze web application allows users to play and manage their music library, stream songs, and access to a library of songs from various artists and genres. Additionally, many music apps also offer a premium version with added features such as ad-free listening",
         href1: "https://github.com/orgs/smoozepro/dashboard",
