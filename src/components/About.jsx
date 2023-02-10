@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/profile.jpg'
+import profile from '../assets/prince.jpg'
 import cv from  '/src/assets/CV(Node Engineer).pdf'
 
 const About = () => {
