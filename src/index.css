@@ -985,18 +985,8 @@ form button:hover {
   display: block;
 }
 
-.sidebar-sublinks {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 0.25rem;
-}
-.sidebar-sublinks a {
-  display: block;
-  color: black;
-  text-transform: capitalize;
-  display: flex;
-  align-items: center;
-}
+
+
 .sidebar-sublinks svg {
   color: var(--clr-grey-5);
   margin-right: 1rem;

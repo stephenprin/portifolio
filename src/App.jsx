@@ -7,6 +7,7 @@ import Technologies from './components/Technologies'
 import Contact from './components/Contact'
 import About from './components/About'
 import Sidebar from './components/Sidebar'
+import loader from  './assets/loader.svg'
 
 
 
@@ -22,7 +23,9 @@ function App() {
     }, 2000)
   }, [])
   if (isLoading) { 
-    return <div className="loading">Loading...</div>
+    return <div className="loading">
+      <img src={loader} alt="loader" className='' />
+      </div>
   }
 
   return (
