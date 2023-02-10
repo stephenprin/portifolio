@@ -48,7 +48,7 @@ export const socialLinks = [
 export const projectData = [
     {
         id: 1,
-        image: "https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg",  
+        image: "https://res.cloudinary.com/dy27auwjb/image/upload/v1676027608/shoprite/smooze_qowtog.png",  
         title: "Smooze Music App",
         description: "Smooze web application allows users to play and manage their music library, stream songs, and access to a library of songs from various artists and genres. Additionally, many music apps also offer a premium version with added features such as ad-free listening",
         href1: "https://github.com/orgs/smoozepro/dashboard",
@@ -57,7 +57,7 @@ export const projectData = [
     },
     {
         id: 2,
-        image: "dist/assets/github.png",  
+        image: "https://res.cloudinary.com/dy27auwjb/image/upload/v1676027960/shoprite/gitsearcher_yoajfz.png",  
         title: "Github User Search",
         description: "An application that allows users to search for a specific GitHub user by username and retrieve information about their profile and activity on the platform. This information can include the user's bio, location, email, number of followers, repositories, and recent activity such as pull requests and comments. The purpose of a GitHub user searcher is to help developers,recruiters, and others to quickly find and gather information about a specific GitHub user.",
         href1: "https://github.com/stephenprin/react-github-search-users",
@@ -66,7 +66,7 @@ export const projectData = [
     },
     {
         id: 3,
-        image: "dist/assets/project4.png",
+        image: "https://res.cloudinary.com/dy27auwjb/image/upload/v1676027607/shoprite/project3_gzc4av.png",
         title: "Admin sales Dashboard",
         description: "An interface designed to provide an overview of sales performance and activity for a business. It typically displays sales data in the form of charts, graphs, and tables, allowing administrators to quickly and easily monitor key performance metrics.The ultimate goal of an admin sales dashboard is to provide business owners and administrators with real-time visibility into their sales performance, enabling them to make data-driven decisions to improve their bottom line.",
         href1: "https://github.com/stephenprin/Responsive-admin-dashboard",
@@ -75,7 +75,7 @@ export const projectData = [
     },
     {
         id: 4,
-        image: "dist/assets/photoboot.png",
+        image: "https://res.cloudinary.com/dy27auwjb/image/upload/v1676027608/shoprite/photoboot_bzohsn.png",
         title: "Photo Gallery",
         description: "A photo gallery app built with React, the user interface is constructed using components, which are small, reusable building blocks of code. The app may allow users to search for images of their choice, and view in an organize way. The React library provides a variety of tools and features for building dynamic and responsive user interfaces, such as state management, event handling, and server-side rendering using an External API",
         href1: "https://github.com/stephenprin/Photo-boot",
