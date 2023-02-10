@@ -1,137 +1,154 @@
-import React from 'react'
+import React from "react";
+import { skills } from "../data";
 
-const Technologies = () => {
+const Technologies = ({ skills }) => {
+    const [fShow, setFShow] = React.useState(false);
+    const [bShow, setBShow] = React.useState(false);
+    const [dShow, setDShow] = React.useState(false);
+    const [uShow, setUShow] = React.useState(false);
+   
+  const [frontend, setFrontend] = React.useState([
+    "ReactJs",
+    "Tailwind CSS/Bootstrap/CSS",
+    "Material UI",
+    "Styled Components",
+    "HTML",
+    "JavaScript/TypeScript",
+    "Fusion Chart/Angrytools",
+  ]);
+  const [backend, setBackend] = React.useState([
+    "NodeJs/ NodeTs",
+    "ExpressJs",
+    "MongoDB",
+    "Postgres/ Sqlite",
+    "GraphQL",
+    "Jwt",
+  ]);
+  const [ux, setUx] = React.useState(["Adobe XD", "Figma", "Adobe Photoshop"]);
+  const [devops, setDevops] = React.useState([
+    "Docker",
+    "Firebase",
+    "Microservice",
+  ]);
+
+ 
+  const toggleShowFront = () => {
+    setFShow(!fShow);
+  }
+  const toggleShowBack = () => {
+    setBShow(!bShow);
+  }
+  const toggleShowDev = () => {
+    setDShow(!dShow);
+  };
+  const toggleShowUx = () => {
+    setUShow(!uShow);
+  };
+
   return (
-    <section class="skills" id="skills">
-    <h1 class="text-[3rem] text-slate-300">Technologies</h1>
-    <div class="container">
-       
-        
-      
-        <div class="skill">
-            <div class="head bg-gradient-to-r from-cyan-500 to-blue-500">
-                <div class="left">
-                    <i class="fas fa-pencil-ruler"></i>
-                    <h4>FRONTEND DEVELOPMENT</h4>
+    <section className="skills" id="technologies">
+      <h1 className="text-[3rem] text-slate-300">Technologies</h1>
+      <div className="container">
+            <div className="skill">
+            <div
+                className="head bg-gradient-to-r from-cyan-500 to-blue-500"
+                onClick={toggleShowFront}
+            >
+                <div className="left">
+                <i className="fas fa-pencil-ruler"></i>
+                <h4>Frontend</h4>
                 </div>
-                <i class="fas fa-caret-down"></i>
+                <i className="fas fa-caret-down"></i>
+            </div>
+            {fShow && (
+                <div className="items">
+                {frontend.map((item, index) => {
+                    return (
+                    <div key={index} className="item">
+                        <h4>{item}</h4>
+                    </div>
+                    );
+                })}
+                </div>
+            )}
             </div>
 
-            <div class="items">
-               
-                <div class="item">
-                    <h4>ReactJs</h4>
+            <div className="skill">
+            <div
+                className="head bg-gradient-to-r from-cyan-500 to-blue-500"
+                onClick={toggleShowBack }
+            >
+                <div className="left">
+                <i className="fas fa-pencil-ruler"></i>
+                <h4>Backend</h4>
                 </div>
-               
-                <div class="item"> 
-                    <h4>Css</h4>
-                </div>
-                <div class="item"> 
-                    <h4>Tailwindcss/ Bootstrap</h4>
-                </div>
-                <div class="item"> 
-                    <h4>Git/Github</h4>
-                </div>
-                <div class="item"> 
-                    <h4>Html5</h4>
-                </div>
-                <div class="item"> 
-                    <h4>Javascript/Typescript</h4>
-                </div>
-                
-                <div class="item"> 
-                    <h4>Fusion Chart/Angrytools</h4>
-                </div>
+                <i className="fas fa-caret-down"></i>
             </div>
 
-        </div>
-       
-        <div class="skill">
-            <div class="head bg-gradient-to-r from-cyan-500 to-blue-500">
-                <div class="left">
-                    <i class="fas fa-pencil-ruler"></i>
-                    <h4>BACK-END</h4>
+            {bShow && (
+                <div className="items">
+                {backend.map((item, index) => {
+                    return (
+                    <div key={index} className="item">
+                        <h4>{item}</h4>
+                    </div>
+                    );
+                })}
                 </div>
-                <i class="fas fa-caret-down"></i>
+            )}
+            </div>
+            <div className="skill">
+            <div
+                className="head bg-gradient-to-r from-cyan-500 to-blue-500"
+                onClick={ toggleShowDev}
+            >
+                <div className="left">
+                <i className="fas fa-pencil-ruler"></i>
+                <h4>Devops</h4>
+                </div>
+                <i className="fas fa-caret-down"></i>
             </div>
 
-            <div class="items">
-                
-                <div class="item">
-                    <h4>NodeJs/ NodeTs</h4>
+            {dShow && (
+                <div className="items">
+                {devops.map((item, index) => {
+                    return (
+                    <div key={index} className="item">
+                        <h4>{item}</h4>
+                    </div>
+                    );
+                })}
                 </div>
-               
-                <div class="item"> 
-                    <h4>ExpressJs</h4>
+            )}
+            </div>
+            <div className="skill">
+            <div
+                className="head bg-gradient-to-r from-cyan-500 to-blue-500"
+                onClick={ toggleShowUx}
+            >
+                <div className="left">
+                <i className="fas fa-pencil-ruler"></i>
+                <h4>UX/UI</h4>
                 </div>
-                <div class="item"> 
-                    <h4>MongoDB </h4>
-                </div>
-                <div class="item"> 
-                    <h4>Postgres/ Sqlite</h4>
-                </div>
-                <div class="item"> 
-                    <h4>GraphQL</h4>
-                </div>
-                <div class="item"> 
-                    <h4>Jwt</h4>
-                </div>
-               
-
+                <i className="fas fa-caret-down"></i>
             </div>
 
-        </div>
-        <div class="skill">
-            <div class="head bg-gradient-to-r from-cyan-500 to-blue-500">
-                <div class="left">
-                    <i class="fas fa-pencil-ruler"></i>
-                    <h4>DevOps</h4>
+            {uShow && (
+                <div className="items">
+                {ux.map((item, index) => {
+                    return (
+                    <div key={index} className="item">
+                        <h4>{item}</h4>
+                    </div>
+                    );
+                })}
                 </div>
-                <i class="fas fa-caret-down"></i>
-            </div>
-
-            <div class="items">
-               
-                <div class="item">
-                    <h4>Docker</h4>
-            
-                </div>
-               
-                <div class="item"> 
-                    <h4>Firebase</h4>
-                </div>
-                <div class="item"> 
-                    <h4>Microservice</h4>
-                </div>
+            )}
             </div>
 
         </div>
-        <div class="skill">
-            <div class="head bg-gradient-to-r from-cyan-500 to-blue-500">
-                <div class="left">
-                    <i class="fas fa-pencil-ruler"></i>
-                    <h4>UI/UX DESIGN</h4>
-                </div>
-                <i class="fas fa-caret-down"></i>
-            </div>
+    </section>
+  );
+};
 
-            <div class="items">
-                
-                <div class="item">
-                    <h4>Adobe XD</h4>
-            
-                </div>
-              
-                <div class="item"> 
-                    <h4>Figma</h4>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-  )
-}
-
-export default Technologies
+export default Technologies;

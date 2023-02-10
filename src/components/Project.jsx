@@ -22,8 +22,8 @@ const Project = () => {
                         <div>
                                   <h3 className="text-cyan-600 text-[1.4rem] text-center mb-4">{ title}</h3>
                         <hr className="w-[50px] h-[3px] bg-gradient-to-r from-cyan-500 via-cyan-100 to-cyan-800 m-auto"/>
-                                  <p class="text-sm px-4 text-slate-400 text-justify mt-3">{ description}</p>
-                             <div class="port-link mt-4 flex gap-4 ml-4 text-cyan-600 mb-8">
+                                  <p className="text-sm px-4 text-slate-400 text-justify mt-3">{ description}</p>
+                             <div className="port-link mt-4 flex gap-4 ml-4 text-cyan-600 mb-8">
                                 <a className="text-[0.7rem]" href={href1}>GITHUB</a>
                                 <a className="text-[0.7rem] text" href={href2}>LIVE DEMO</a>
                                       
