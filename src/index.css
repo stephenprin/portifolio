@@ -984,7 +984,13 @@ form button:hover {
 .sidebar-wrapper {
   display: block;
 }
-
+.progress-project{
+ 
+  margin-top: 4rem;
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
 
 
 .sidebar-sublinks svg {
