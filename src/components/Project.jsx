@@ -40,7 +40,7 @@ const Project = () => {
                 
                 
         </div>
-        <h2 className='progress-project'>Project in Progress</h2>
+        {/* <h2 className='progress-project'>Project in Progress</h2>
         <div className="portifos">
                  { inprogress.map((project) => {
                       const { id, image, description, title,href1, href2 ,technology} = project;
@@ -68,7 +68,7 @@ const Project = () => {
                     </div>
                       )
                  })}
-          </div>
+          </div> */}
 
         </div>
      </section>
